@@ -8,6 +8,7 @@ import org.springframework.kafka.config.TopicBuilder;
 @Configuration
 public class KafkaTopicConfig {
 
+
     @Bean
     public NewTopic topic(){
         return TopicBuilder.name("wikimedia_recentchange")

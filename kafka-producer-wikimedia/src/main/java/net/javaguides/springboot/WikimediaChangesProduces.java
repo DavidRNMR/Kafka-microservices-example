@@ -17,6 +17,7 @@ public class WikimediaChangesProduces {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(WikimediaChangesProduces.class);
 
+
     @Autowired
     private KafkaTemplate<String,String> kafkaTemplate;
 
